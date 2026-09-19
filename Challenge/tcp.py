@@ -5,8 +5,7 @@ import os
 
 server_address = (os.getenv("FCI_SERVER_IP", "127.0.0.1"), 12100)
 
-# Dati personali: impostali come variabili d'ambiente, non scriverli
-# mai nel codice versionato.
+# DATI PERSONALI
 #   export FCI_SERVER_IP="ip.del.server"
 #   export FCI_EMAIL="tua.email@example.com"
 #   export FCI_PERSON_CODE="12345678"

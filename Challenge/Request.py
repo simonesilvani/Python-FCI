@@ -5,8 +5,7 @@ import os
 ip = os.getenv("FCI_SERVER_IP", "127.0.0.1")
 porta = 80
 
-# Percorso e payload della challenge: impostali come variabili d'ambiente,
-# non scriverli mai nel codice versionato.
+# PERCORSO E PAYLOAD DELLA CHALLANGE
 #   export FCI_CHALLENGE_PATH="/percorso/assegnato"
 #   export FCI_CHALLENGE_DATA="codice-assegnato"
 path = os.getenv("FCI_CHALLENGE_PATH", "/percorso/della/challenge")

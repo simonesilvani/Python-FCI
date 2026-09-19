@@ -8,8 +8,7 @@ server_address = (server_ip, server_port)
 
 client_socket = socket(AF_INET, SOCK_DGRAM)
 
-# Dati personali: impostali come variabili d'ambiente, non scriverli
-# mai nel codice versionato.
+# DATI PERSONALI
 #   export FCI_SERVER_IP="ip.del.server"
 #   export FCI_EMAIL="tua.email@example.com"
 #   export FCI_PERSON_CODE="12345678"

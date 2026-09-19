@@ -10,8 +10,7 @@ clientSocket = socket(AF_INET, SOCK_STREAM)
 clientSocket.connect(serverAddress)
 print("connected server", serverAddress)
 
-# Dati personali: impostali come variabili d'ambiente, non scriverli
-# mai nel codice versionato.
+# DATI PERSONALI
 #   export FCI_SERVER_IP="ip.del.server"
 #   export FCI_EMAIL="tua.email@example.com"
 #   export FCI_PERSON_CODE="12345678"
